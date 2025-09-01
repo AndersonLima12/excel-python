@@ -1,0 +1,41 @@
+.metric-card {
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s;
+}
+
+.metric-card p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.metric-card h2 {
+  font-size: 32px;
+  margin: 5px 0 0 0;
+}
+
+/* Cores diferentes */
+.bg-blue {
+  background-color: #1f77b4;
+}
+
+.bg-green {
+  background-color: #2ca02c;
+}
+
+.bg-orange {
+  background-color: #ff7f0e;
+}
+
+.bg-red {
+  background-color: #d62728;
+}
+
+/* Hover efeito */
+.metric-card:hover {
+  transform: scale(1.05);
+}
